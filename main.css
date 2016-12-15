@@ -20,7 +20,7 @@
   margin: auto;
 }
 
-.intro {
+.intro .gallery {
   position: relative;
   font-family: Arial, sans-serif;
 }
@@ -31,16 +31,38 @@ p {
 .main-pic {
   text-align: center;
 }
+
 #Aspen {
   display: inline-block;
   width: 50%;
 }
 
+.gallery2 {
+  text-align: center;
+}
+
+.gallery-pic {
+  display: inline-block;
+  height: 100px;
+  width: auto;
+}
+
 @media (max-width: 960px) {
+    .intro {
+      position: relative;
+      display: inline-block;
+    }
+    .main-pic {
+      postion: absolute;
+      margin: auto;
+    }
+
   .navigation {
     postion: relative;
     width: 25%;
     text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .navbar {
@@ -52,4 +74,25 @@ p {
     font-size: 14px;
     text-align: left;
   }
+}
+
+@media (max-width: 800px) {
+
+.gallery {
+  display: block;
+  position: relative;
+  margin: auto;
+
+}
+.gallery2 {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: auto;
+  position: relative;
+}
+.gallery-pic {
+  margin: auto;
+  display: block;
+}
 }
