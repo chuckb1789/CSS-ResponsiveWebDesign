@@ -1,0 +1,55 @@
+.navigation {
+  position: relative;
+  text-align: center;
+}
+
+.navbar {
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+  background-color: darkgreen;
+  border: 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-style: normal;
+  font-family: Arial, sans-serif;
+  padding: 5px 5px;
+  font-size: 14px;
+  max-width: 960px;
+  margin: auto;
+}
+
+.intro {
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+p {
+  display: inline-block;
+}
+
+.main-pic {
+  text-align: center;
+}
+#Aspen {
+  display: inline-block;
+  width: 50%;
+}
+
+@media (max-width: 960px) {
+  .navigation {
+    postion: relative;
+    width: 25%;
+    text-align: left;
+  }
+
+  .navbar {
+    display: inline-block;
+    width: auto;
+    border: 5px;
+    color: white;
+    padding: 5px 5px;
+    font-size: 14px;
+    text-align: left;
+  }
+}
